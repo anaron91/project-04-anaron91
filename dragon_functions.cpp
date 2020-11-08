@@ -3,11 +3,8 @@
 //November 08, 2020
 //CSIS 113A
 
-#include "dragon_functions.h"
-
-#include "dragon_functions.h"
 #include <iostream>
-#include <string>
+#include "dragon_functions.h"
 
 using std::cout;
 using std::endl;
@@ -15,13 +12,16 @@ using std::endl;
 //define functions for dragon
 
 void bite() {
-  cout << "Dragon bites you!" << "\n\n";
+  cout << endl;
+  cout << "Dragon bites you!" << '\n';
 }
 
 void whip_tail(int damage) {
-  cout << "Dragon whips tail for " << damage << " damage!" << "\n\n";
+  cout << endl;
+  cout << "Dragon whips tail for " << damage << " damage!" << '\n';
 }
 
 void breath_fire(int damage, int time) {
-  cout << "Dragon breathes fire for " << time << " seconds, you take " << damage << " damage!" << "\n\n";
+  cout << endl;
+  cout << "Dragon breathes fire for " << time << " seconds, you take " << damage << " damage!" << '\n';
 }

@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="project_04" targetName="project_04" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -18,15 +20,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88c50c9a-b39d-4d83-83d1-8c43bae30aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dragon_functions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dragon_functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu_functions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu_functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_4.cpp" afterDir="false" />
+    <list default="true" id="88c50c9a-b39d-4d83-83d1-8c43bae30aaa" name="Default Changelist" comment="change of repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dragon_functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dragon_functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dragon_functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/dragon_functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu_functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menu_functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu_functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/menu_functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_04.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project_04.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -53,10 +55,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_4" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunManager">
@@ -65,9 +69,14 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="project_04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project_04" TARGET_NAME="project_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project_04" RUN_TARGET_NAME="project_04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -80,8 +89,32 @@
       <option name="presentableId" value="Default" />
       <updated>1604532298281</updated>
       <workItem from="1604532308865" duration="44000" />
-      <workItem from="1604866298575" duration="1017000" />
+      <workItem from="1604866298575" duration="1668000" />
+      <workItem from="1604871809753" duration="18000" />
+      <workItem from="1604872698366" duration="1232000" />
     </task>
+    <task id="LOCAL-00001" summary="change of repo">
+      <created>1604867344669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604867344669</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change of repo">
+      <created>1604867401737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604867401737</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change of repo">
+      <created>1604867754358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604867754358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,23 +130,56 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change of repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="change of repo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604867231686">
+    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604872766753">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604872766753" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604871825943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604867231686" />
-    <state x="481" y="230" width="627" height="392" key="Github.ShareDialog" timestamp="1604866704624">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604871825943" />
+    <state x="481" y="230" width="627" height="392" key="Github.ShareDialog" timestamp="1604867837390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="481" y="230" width="627" height="392" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604866704624" />
+    <state x="481" y="230" width="627" height="392" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604867837390" />
     <state x="739" y="225" key="Github.UntrackedFilesDialog" timestamp="1604866715294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604866715294" />
+    <state width="618" height="844" key="GridCell.Tab.0.bottom" timestamp="1604873910684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="618" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604873205895" />
+    <state width="618" height="844" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604873910684" />
+    <state width="618" height="844" key="GridCell.Tab.0.center" timestamp="1604873910684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="618" height="912" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604873205895" />
+    <state width="618" height="844" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604873910684" />
+    <state width="618" height="844" key="GridCell.Tab.0.left" timestamp="1604873910684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="618" height="912" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604873205895" />
+    <state width="618" height="844" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604873910684" />
+    <state width="618" height="844" key="GridCell.Tab.0.right" timestamp="1604873910684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="618" height="912" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604873205895" />
+    <state width="618" height="844" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604873910684" />
     <state x="540" y="263" key="IDE.errors.dialog" timestamp="1604866735726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604866735726" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604867761918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604867761918" />
   </component>
 </project>

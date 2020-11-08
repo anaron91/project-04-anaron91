@@ -3,9 +3,8 @@
 //November 08, 2020
 //CSIS 113A
 
-#include "menu_functions.h"
 #include <iostream>
-#include <string>
+#include "menu_functions.h"
 
 using std::cout;
 using std::endl;
