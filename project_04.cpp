@@ -4,7 +4,7 @@
 //CSIS 113A
 
 #include <iostream>
-#include "dragon_function.h"
+#include "dragon_functions.h"
 #include "menu_functions.h"
 #include <string>
 #include <random>

@@ -5,7 +5,7 @@
 
 #include "dragon_functions.h"
 
-#include "dragon_function.h"
+#include "dragon_functions.h"
 #include <iostream>
 #include <string>
 
